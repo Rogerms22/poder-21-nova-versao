@@ -76,7 +76,7 @@ const UpsellHero = () => {
                 De: <span className="font-bold">€97</span>
               </p>
               <p className="text-3xl font-bold text-primary">
-                por €40{" "}
+                por €39,99{" "}
                 <span className="text-lg text-foreground">(pagamento único)</span>
               </p>
             </div>

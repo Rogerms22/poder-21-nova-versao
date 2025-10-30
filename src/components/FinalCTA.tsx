@@ -57,7 +57,7 @@ const FinalCTA = () => {
                 Valor normal: €97
               </p>
               <p className="text-4xl font-bold text-primary mb-2">
-                Apenas €40
+                Apenas €39,99
               </p>
               <p className="text-sm text-muted-foreground">
                 (pagamento único - sem mensalidades)
