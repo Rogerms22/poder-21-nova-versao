@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
-import heroImage from "@/assets/21-dias-poder-hero.jpg";
+import heroImage from "@/assets/rotina-poder-mockup.png";
 
 const UpsellHero = () => {
   return (
@@ -88,8 +88,8 @@ const UpsellHero = () => {
           <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 blur-3xl rounded-full"></div>
           <img
             src={heroImage}
-            alt="21 Dias de Poder - Cria a Tua Nova Versão"
-            className="relative z-10 w-full max-w-md mx-auto drop-shadow-2xl"
+            alt="Rotina de Poder - 21 Dias para te tornares uma pessoa imparável"
+            className="relative z-10 w-full max-w-lg mx-auto drop-shadow-2xl"
           />
         </div>
       </div>
