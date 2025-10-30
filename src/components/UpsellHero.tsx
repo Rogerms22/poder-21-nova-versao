@@ -84,8 +84,7 @@ const UpsellHero = () => {
         </div>
 
         {/* Right Image */}
-        <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 blur-3xl rounded-full"></div>
+        <div className="relative bg-black rounded-lg p-8">
           <img
             src={heroImage}
             alt="Rotina de Poder - 21 Dias para te tornares uma pessoa imparável"
