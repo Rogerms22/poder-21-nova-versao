@@ -35,7 +35,7 @@ const WhyNow = () => {
             </p>
             <p className="text-muted-foreground">
               Se saíres desta página, perdes esta oportunidade de ter o programa
-              completo por apenas €19,99 (valor normal: €47).
+              completo por apenas €40 (valor normal: €97).
             </p>
           </div>
           

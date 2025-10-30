@@ -21,7 +21,7 @@ const FinalCTA = () => {
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
               <p className="text-lg">
-                Programa completo "21 Dias de Poder" (valor: €47)
+                Programa completo "21 Dias de Poder" (valor: €97)
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -54,10 +54,10 @@ const FinalCTA = () => {
             
             <div>
               <p className="text-lg line-through text-muted-foreground">
-                Valor normal: €47
+                Valor normal: €97
               </p>
               <p className="text-4xl font-bold text-primary mb-2">
-                Apenas €19,99
+                Apenas €40
               </p>
               <p className="text-sm text-muted-foreground">
                 (pagamento único - sem mensalidades)
