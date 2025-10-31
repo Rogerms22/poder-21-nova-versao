@@ -64,7 +64,16 @@ const FinalCTA = () => {
               </p>
             </div>
 
-            <Button variant="neon" size="lg" className="w-full text-lg sm:text-xl py-6 sm:py-8">
+            <Button 
+              variant="neon" 
+              size="lg" 
+              className="w-full text-lg sm:text-xl py-6 sm:py-8"
+              onClick={() => {
+                if (typeof window !== 'undefined' && (window as any).checkoutElements) {
+                  (window as any).checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel');
+                }
+              }}
+            >
               SIM! Quero transformar a minha vida em 21 dias
             </Button>
 

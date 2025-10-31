@@ -67,7 +67,16 @@ const UpsellHero = () => {
           </div>
 
           <div className="space-y-3 sm:space-y-4">
-            <Button variant="neon" size="lg" className="w-full lg:w-auto text-base sm:text-lg py-5 sm:py-6 px-8 sm:px-12">
+            <Button 
+              variant="neon" 
+              size="lg" 
+              className="w-full lg:w-auto text-base sm:text-lg py-5 sm:py-6 px-8 sm:px-12"
+              onClick={() => {
+                if (typeof window !== 'undefined' && (window as any).checkoutElements) {
+                  (window as any).checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel');
+                }
+              }}
+            >
               Quero transformar-me agora → acesso imediato
             </Button>
             
