@@ -1,13 +1,13 @@
 const WhyNow = () => {
   return (
-    <div className="bg-card py-16 px-4">
+    <div className="bg-card py-12 sm:py-16 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-6 sm:mb-8">
           Porque é que deves aproveitar{" "}
           <span className="text-primary">AGORA</span>?
         </h2>
         
-        <div className="space-y-6 text-lg">
+        <div className="space-y-4 sm:space-y-6 text-base sm:text-lg">
           <p className="leading-relaxed">
             Se já decidiste investir em ti com{" "}
             <span className="font-bold">"Aprenda a Fazer Falta"</span>, então
@@ -29,11 +29,11 @@ const WhyNow = () => {
             semanas consecutivas.
           </p>
           
-          <div className="bg-primary/10 border-l-4 border-primary p-6 my-8">
-            <p className="text-xl font-bold mb-2">
+          <div className="bg-primary/10 border-l-4 border-primary p-4 sm:p-6 my-6 sm:my-8">
+            <p className="text-lg sm:text-xl font-bold mb-2">
               Esta oferta exclusiva só está disponível NESTE momento.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-sm sm:text-base text-muted-foreground">
               Se saíres desta página, perdes esta oportunidade de ter o programa
               completo por apenas €39,99 (valor normal: €97).
             </p>

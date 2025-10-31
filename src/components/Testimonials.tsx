@@ -20,39 +20,39 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
-      <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">
+    <div className="container mx-auto px-4 py-12 sm:py-16">
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-8 sm:mb-12">
         O que dizem quem já transformou a sua vida
       </h2>
       
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors"
+            className="bg-card p-5 sm:p-6 rounded-lg border border-border hover:border-primary transition-colors"
           >
-            <div className="flex gap-1 mb-4">
+            <div className="flex gap-1 mb-3 sm:mb-4">
               {[...Array(testimonial.rating)].map((_, i) => (
                 <Star
                   key={i}
-                  className="w-5 h-5 fill-secondary text-secondary"
+                  className="w-4 h-4 sm:w-5 sm:h-5 fill-secondary text-secondary"
                 />
               ))}
             </div>
-            <p className="text-muted-foreground mb-4 italic">
+            <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4 italic">
               "{testimonial.text}"
             </p>
-            <p className="font-bold">— {testimonial.name}</p>
+            <p className="text-sm sm:text-base font-bold">— {testimonial.name}</p>
           </div>
         ))}
       </div>
       
-      <div className="text-center mt-12">
-        <p className="text-xl font-bold mb-2">
+      <div className="text-center mt-8 sm:mt-12">
+        <p className="text-lg sm:text-xl font-bold mb-2">
           Junta-te a mais de{" "}
-          <span className="text-primary text-3xl">3.500</span> pessoas
+          <span className="text-primary text-2xl sm:text-3xl">3.500</span> pessoas
         </p>
-        <p className="text-muted-foreground">
+        <p className="text-sm sm:text-base text-muted-foreground">
           que já transformaram as suas vidas em apenas 21 dias
         </p>
       </div>
