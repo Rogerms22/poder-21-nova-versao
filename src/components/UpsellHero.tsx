@@ -84,11 +84,11 @@ const UpsellHero = () => {
         </div>
 
         {/* Right Image */}
-        <div className="relative bg-black rounded-lg p-8">
+        <div className="relative">
           <img
             src={heroImage}
             alt="Rotina de Poder - 21 Dias para te tornares uma pessoa imparável"
-            className="relative z-10 w-full max-w-lg mx-auto drop-shadow-2xl"
+            className="w-full max-w-lg mx-auto drop-shadow-2xl"
           />
         </div>
       </div>
